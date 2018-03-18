@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+	.padding_for_768 {
+		padding-left: 30px;
+		padding-right: 30px;
+		text-align: center;		
+	}
+
+	div.about-image {
+		display: flex;
+	    justify-content: center;
+	}
+
+	div.se-top {
+	    display: flex;
+	    justify-content: center;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		height: 40px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.buttons li {
+		margin-bottom: 20px;
+	}
+
+	div.about-text {
+	    padding-right: 0;
+	    text-align: center;
+	}
+
+	div.about-us-section.grey-bg {
+		padding: 30px 0;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		height: 25px;
+	}
+
+	div.section-head {
+    	padding: 60px 0 65px;
+	}
+
+	div.our-expertist.grey-bg {
+		padding-bottom: 0px;
+	}
+
+	.for-480-center {
+		text-align: center;
+	}
+
+	.white_energy_text {
+		margin-top: 20px;
+	}
+
+	div#white_energy.our-expertist {
+    	padding-bottom: 60px;
+    }
+}
